@@ -1,0 +1,1222 @@
+enable_audio_bell no
+# vim:fileencoding=utf-8:foldmethod=marker
+#: Fonts
+#: Fonts {{{
+#: Font Family
+font_family      JetBrainsMono Nerd Font
+
+#: Bold Font
+bold_font        JetBrainsMono Nerd Font SemiBold
+
+#: Italic Font
+italic_font      JetBrainsMono Nerd Font Italic
+
+#: Bold Italic Font
+bold_italic_font JetBrainsMono Nerd Font Italic
+
+#: Font Size
+font_size 13.0
+
+#: Force Ltr
+# force_ltr no
+# symbol_map
+# narrow_symbols
+
+#: Disable Ligatures
+disable_ligatures never
+
+# font_features
+# modify_font
+
+#: Box Drawing Scale
+# box_drawing_scale 0.001, 1, 1.5, 2
+
+#: Undercurl Style
+# undercurl_style thin-sparse
+
+#: Underline Exclusion
+# underline_exclusion 1
+
+#: Text Composition Strategy
+# text_composition_strategy platform
+
+#: Text Fg Override Threshold
+# text_fg_override_threshold 0
+
+#: }}}
+#: Text cursor customization
+#: Text cursor customization {{{
+#: Cursor
+# cursor #cccccc
+
+#: Cursor Text Color
+# cursor_text_color #111111
+
+#: Cursor Shape
+# cursor_shape block
+
+#: Cursor Shape Unfocused
+# cursor_shape_unfocused hollow
+
+#: Cursor Beam Thickness
+# cursor_beam_thickness 1.5
+
+#: Cursor Underline Thickness
+# cursor_underline_thickness 2.0
+
+#: Cursor Blink Interval
+# cursor_blink_interval -1
+
+#: Cursor Stop Blinking After
+# cursor_stop_blinking_after 15.0
+
+#: Cursor Trail
+# cursor_trail 0
+
+#: Cursor Trail Decay
+# cursor_trail_decay 0.1 0.4
+
+#: Cursor Trail Start Threshold
+# cursor_trail_start_threshold 2
+
+#: Cursor Trail Color
+# cursor_trail_color none
+
+#: }}}
+#: Scrollback
+#: Scrollback {{{
+#: Scrollback Lines
+# scrollback_lines 2000
+
+#: Scrollbar
+# scrollbar scrolled
+
+#: Scrollbar Interactive
+# scrollbar_interactive yes
+
+#: Scrollbar Jump On Click
+# scrollbar_jump_on_click yes
+
+#: Scrollbar Width
+# scrollbar_width 0.5
+
+#: Scrollbar Hover Width
+# scrollbar_hover_width 1
+
+#: Scrollbar Handle Opacity
+# scrollbar_handle_opacity 0.5
+
+#: Scrollbar Radius
+# scrollbar_radius 0.3
+
+#: Scrollbar Gap
+# scrollbar_gap 0.1
+
+#: Scrollbar Min Handle Height
+# scrollbar_min_handle_height 1
+
+#: Scrollbar Hitbox Expansion
+# scrollbar_hitbox_expansion 0.25
+
+#: Scrollbar Track Opacity
+# scrollbar_track_opacity 0
+
+#: Scrollbar Track Hover Opacity
+# scrollbar_track_hover_opacity 0.1
+
+#: Scrollbar Handle Color
+# scrollbar_handle_color foreground
+
+#: Scrollbar Track Color
+# scrollbar_track_color foreground
+
+#: Progress Bar
+# progress_bar top
+
+#: Scrollback Pager
+# scrollback_pager less --chop-long-lines --RAW-CONTROL-CHARS +INPUT_LINE_NUMBER
+
+#: Scrollback Pager History Size
+# scrollback_pager_history_size 0
+
+#: Scrollback Fill Enlarged Window
+# scrollback_fill_enlarged_window no
+
+#: Wheel Scroll Multiplier
+# wheel_scroll_multiplier 5.0
+
+#: Wheel Scroll Min Lines
+# wheel_scroll_min_lines 1
+
+#: Touch Scroll Multiplier
+# touch_scroll_multiplier 1.0
+
+#: Pixel Scroll
+# pixel_scroll yes
+
+#: Momentum Scroll
+# momentum_scroll 0.96
+
+#: }}}
+#: Mouse
+#: Mouse {{{
+#: Mouse Hide Wait
+# mouse_hide_wait 3.0
+
+#: Url Color
+# url_color #0087bd
+
+#: Url Style
+# url_style curly
+
+#: Open Url With
+# open_url_with default
+
+#: Url Prefixes
+# url_prefixes file ftp ftps gemini git gopher http https irc ircs kitty mailto news sftp ssh
+
+#: Detect Urls
+# detect_urls yes
+
+# url_excluded_characters
+
+#: Show Hyperlink Targets
+# show_hyperlink_targets never
+
+#: Underline Hyperlinks
+# underline_hyperlinks hover
+
+#: Copy On Select
+# copy_on_select no
+
+#: Clear Selection On Clipboard Loss
+# clear_selection_on_clipboard_loss no
+
+#: Paste Actions
+# paste_actions quote-urls-at-prompt,confirm
+
+#: Strip Trailing Spaces
+# strip_trailing_spaces never
+
+#: Select By Word Characters
+# select_by_word_characters @-./_~?&=%+#
+
+# select_by_word_characters_forward
+
+#: Click Interval
+# click_interval -1.0
+
+#: Focus Follows Mouse
+# focus_follows_mouse no
+
+#: Pointer Shape When Grabbed
+# pointer_shape_when_grabbed arrow
+
+#: Default Pointer Shape
+# default_pointer_shape beam
+
+#: Pointer Shape When Dragging
+# pointer_shape_when_dragging beam crosshair
+
+#: Drag Threshold
+# drag_threshold 5
+
+#: Mouse actions
+#: Mouse actions {{{
+#: Clear All Mouse Actions
+# clear_all_mouse_actions no
+
+#: Mouse Handle Click
+# mouse_map left click ungrabbed mouse_handle_click selection link prompt
+
+#: Mouse Handle Click
+# mouse_map shift+left click grabbed,ungrabbed mouse_handle_click selection link prompt
+
+#: Mouse Handle Click
+# mouse_map ctrl+shift+left release grabbed,ungrabbed mouse_handle_click link
+
+#: Discard Event
+# mouse_map ctrl+shift+left press grabbed discard_event
+
+#: Paste From Selection
+# mouse_map middle release ungrabbed paste_from_selection
+
+#: Mouse Selection
+# mouse_map left press ungrabbed mouse_selection normal
+
+#: Mouse Selection
+# mouse_map ctrl+alt+left press ungrabbed mouse_selection rectangle
+
+#: Mouse Selection
+# mouse_map left doublepress ungrabbed mouse_selection word
+
+#: Mouse Selection
+# mouse_map left triplepress ungrabbed mouse_selection line
+
+#: Mouse Selection
+# mouse_map alt+left triplepress ungrabbed mouse_selection line_from_begin
+
+#: Mouse Selection
+# mouse_map ctrl+alt+left triplepress ungrabbed mouse_selection line_from_point
+
+#: Mouse Selection
+# mouse_map right press ungrabbed mouse_selection extend
+
+#: Mouse Selection
+# mouse_map shift+left press ungrabbed mouse_selection extend
+
+#: Paste Selection
+# mouse_map shift+middle release ungrabbed,grabbed paste_selection
+
+#: Discard Event
+# mouse_map shift+middle press grabbed discard_event
+
+#: Mouse Selection
+# mouse_map shift+left press grabbed mouse_selection normal
+
+#: Mouse Selection
+# mouse_map ctrl+shift+alt+left press ungrabbed,grabbed mouse_selection rectangle
+
+#: Mouse Selection
+# mouse_map shift+left doublepress ungrabbed,grabbed mouse_selection word
+
+#: Mouse Selection
+# mouse_map shift+left triplepress ungrabbed,grabbed mouse_selection line
+
+#: Mouse Selection
+# mouse_map shift+alt+left triplepress ungrabbed,grabbed mouse_selection line_from_begin
+
+#: Mouse Selection
+# mouse_map ctrl+shift+alt+left triplepress ungrabbed,grabbed mouse_selection line_from_point
+
+#: Mouse Selection
+# mouse_map shift+right press ungrabbed,grabbed mouse_selection extend
+
+#: Mouse Show Command Output
+# mouse_map ctrl+shift+right press ungrabbed mouse_show_command_output
+
+#: }}}
+#: }}}
+#: Performance tuning
+#: Performance tuning {{{
+#: Repaint Delay
+# repaint_delay 10
+
+#: Input Delay
+# input_delay 3
+
+#: Sync To Monitor
+# sync_to_monitor yes
+
+#: }}}
+#: Terminal bell
+#: Terminal bell {{{
+#: Enable Audio Bell
+# enable_audio_bell yes
+
+#: Visual Bell Duration
+# visual_bell_duration 0.0
+
+#: Visual Bell Color
+# visual_bell_color none
+
+#: Window Alert On Bell
+# window_alert_on_bell yes
+
+#: Bell On Tab
+# bell_on_tab "🔔 "
+
+#: Command On Bell
+# command_on_bell none
+
+#: Macos Dock Badge On Bell
+# macos_dock_badge_on_bell yes
+
+#: Bell Path
+# bell_path none
+
+#: Linux Bell Theme
+# linux_bell_theme __custom
+
+#: }}}
+#: Window layout
+#: Window layout {{{
+#: Remember Window Size
+# remember_window_size  yes
+
+#: Initial Window Width
+# initial_window_width  640
+
+#: Initial Window Height
+# initial_window_height 400
+
+#: Remember Window Position
+# remember_window_position no
+
+#: Enabled Layouts
+# enabled_layouts *
+
+#: Window Resize Step Cells
+# window_resize_step_cells 2
+
+#: Window Resize Step Lines
+# window_resize_step_lines 2
+
+#: Window Border Width
+# window_border_width 0.5pt
+
+#: Draw Minimal Borders
+# draw_minimal_borders yes
+
+#: Draw Window Borders For Single Window
+# draw_window_borders_for_single_window no
+
+#: Window Margin Width
+# window_margin_width 0
+
+#: Single Window Margin Width
+# single_window_margin_width -1
+
+#: Window Padding Width
+window_padding_width 5.0
+
+#: Single Window Padding Width
+# single_window_padding_width -1
+
+#: Placement Strategy
+# placement_strategy center
+
+#: Active Border Color
+active_border_color #00ff00
+
+#: Inactive Border Color
+# inactive_border_color #cccccc
+
+#: Bell Border Color
+# bell_border_color #ff5a00
+
+#: Inactive Text Alpha
+# inactive_text_alpha 1.0
+
+#: Hide Window Decorations
+hide_window_decorations yes
+
+#: Window Logo Path
+# window_logo_path none
+
+#: Window Logo Position
+# window_logo_position bottom-right
+
+#: Window Logo Alpha
+# window_logo_alpha 0.5
+
+#: Window Logo Scale
+# window_logo_scale 0
+
+#: Resize Debounce Time
+# resize_debounce_time 0.1 0.5
+
+#: Resize In Steps
+# resize_in_steps no
+
+#: Visual Window Select Characters
+# visual_window_select_characters 1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+#: Confirm Os Window Close
+confirm_os_window_close 0
+
+#: Window Drag Tolerance
+# window_drag_tolerance 2
+
+#: Window Title Bar
+#window_title_bar bottom
+
+#: Window Title Bar Min Windows
+#window_title_bar_min_windows 0
+
+#: Window Title Template
+#window_title_template "{fmt.fg.red}{bell_symbol}{activity_symbol}{fmt.fg.window}{progress_percent}{title}"
+
+#: Active Window Title Template
+# active_window_title_template none
+
+#: Window Title Bar Active Foreground
+# window_title_bar_active_foreground none
+
+#: Window Title Bar Active Background
+# window_title_bar_active_background none
+
+#: Window Title Bar Inactive Foreground
+# window_title_bar_inactive_foreground none
+
+#: Window Title Bar Inactive Background
+# window_title_bar_inactive_background none
+
+#: Window Title Bar Align
+# window_title_bar_align center
+
+#: }}}
+#: Tab bar
+#: Tab bar {{{
+#: Tab Bar Edge
+tab_bar_edge bottom
+
+#: Tab Bar Margin Width
+# tab_bar_margin_width 0.0
+
+#: Tab Bar Margin Height
+# tab_bar_margin_height 0.0 0.0
+
+#: Tab Bar Style
+tab_bar_style powerline
+tab_powerline_style slanted
+
+# tab_bar_filter
+
+#: Tab Bar Align
+tab_bar_align left
+
+#: Tab Bar Show New Tab Button
+#tab_bar_show_new_tab_button yes
+
+#: Tab Bar Min Tabs
+# tab_bar_min_tabs 2
+
+#: Tab Switch Strategy
+# tab_switch_strategy previous
+
+#: Tab Fade
+# tab_fade 0.25 0.5 0.75 1
+
+#: Tab Separator
+#tab_separator " ┇"
+
+#: Tab Activity Symbol
+# tab_activity_symbol none
+
+#: Tab Title Max Length
+# tab_title_max_length 0
+
+#: Tab Title Template
+#tab_title_template "{fmt.fg.red}{bell_symbol}{activity_symbol}{fmt.fg.tab}{tab.last_focused_progress_percent}{title}"
+# : Tab that shows program names===============
+tab_title_template "{fmt.fg._565f89}{sup.index}{fmt.fg.tab}  {tab.active_exe or title}{'  ' + fmt.fg._565f89 + '·' + str(num_windows) + fmt.fg.tab if num_windows > 1 else ''}"
+
+# ===========TAB ACCENT COLORS
+#active_tab_title_template "{fmt.fg._7aa2f7}{sup.index}{fmt.fg.tab}  {tab.active_exe or title}{'  ' + fmt.fg._565f89 + '·' + str(num_windows) + fmt.fg.tab if num_windows > 1 else ''}"
+
+#: Active Tab Title Template
+active_tab_title_template "{fmt.fg._7aa2f7}{sup.index}{fmt.fg.tab}  {tab.active_exe or title}{'  ' + fmt.fg._565f89 + '·' + str(num_windows) + fmt.fg.tab if num_windows > 1 else ''}"
+
+# active_tab_title_template none
+
+#: Active Tab Foreground
+# active_tab_foreground   #000
+
+#: Active Tab Background
+# active_tab_background   #eee
+
+#: Active Tab Font Style
+# active_tab_font_style   bold-italic
+
+#: Inactive Tab Foreground
+# inactive_tab_foreground #444
+
+#: Inactive Tab Background
+# inactive_tab_background #999
+
+#: Inactive Tab Font Style
+# inactive_tab_font_style normal
+
+#: Tab Bar Background
+# tab_bar_background none
+
+#: Tab Bar Margin Color
+# tab_bar_margin_color none
+
+#: }}}
+#: Color scheme
+#: Color scheme {{{
+#: Foreground
+# foreground #dddddd
+
+#: Background
+# background #000000
+
+#: Background Opacity
+# background_opacity 1.0
+
+#: Background Blur
+# background_blur 0
+
+# transparent_background_colors
+
+#: Dynamic Background Opacity
+# dynamic_background_opacity no
+
+#: Background Image
+# background_image none
+
+#: Background Image Layout
+# background_image_layout tiled
+
+#: Background Image Linear
+# background_image_linear no
+
+#: Background Tint
+# background_tint 0.0
+
+#: Background Tint Gaps
+# background_tint_gaps 1.0
+
+#: Dim Opacity
+# dim_opacity 0.4
+
+#: Selection Foreground
+# selection_foreground #000000
+
+#: Selection Background
+# selection_background #fffacd
+
+#: Palette Generate
+# palette_generate fixed
+
+#: The color table
+#: The color table {{{
+#: Color0
+# color0 #000000
+
+#: Color8
+# color8 #767676
+
+#: Color1
+# color1 #cc0403
+
+#: Color9
+# color9 #f2201f
+
+#: Color2
+# color2  #19cb00
+
+#: Color10
+# color10 #23fd00
+
+#: Color3
+# color3  #cecb00
+
+#: Color11
+# color11 #fffd00
+
+#: Color4
+# color4  #0d73cc
+
+#: Color12
+# color12 #1a8fff
+
+#: Color5
+# color5  #cb1ed1
+
+#: Color13
+# color13 #fd28ff
+
+#: Color6
+# color6  #0dcdcd
+
+#: Color14
+# color14 #14ffff
+
+#: Color7
+# color7  #dddddd
+
+#: Color15
+# color15 #ffffff
+
+#: Mark1 Foreground
+# mark1_foreground black
+
+#: Mark1 Background
+# mark1_background #98d3cb
+
+#: Mark2 Foreground
+# mark2_foreground black
+
+#: Mark2 Background
+# mark2_background #f2dcd3
+
+#: Mark3 Foreground
+# mark3_foreground black
+
+#: Mark3 Background
+# mark3_background #f274bc
+
+#: }}}
+#: Wide gamut color formats
+#: Wide gamut color formats {{{
+#: }}}
+#: }}}
+#: Advanced
+#: Advanced {{{
+#: Shell
+# shell .
+
+#: Editor
+editor neovim
+
+#: Close On Child Death
+# close_on_child_death no
+
+#: Remote Control Password
+# remote_control_password
+
+#: Allow Remote Control
+allow_remote_control yes
+
+#: Listen On
+# listen_on none
+
+#: Env
+# env
+
+#: Filter Notification
+# filter_notification
+
+#: Watcher
+# watcher
+
+#: Exe Search Path
+# exe_search_path
+
+#: Update Check Interval
+# update_check_interval 24
+
+#: Auto Reload Config
+# auto_reload_config 0.1
+
+#: Startup Session
+# startup_session none
+
+#: Clipboard Control
+# clipboard_control write-clipboard write-primary read-clipboard-ask read-primary-ask
+
+#: Clipboard Max Size
+# clipboard_max_size 512
+
+# file_transfer_confirmation_bypass
+
+#: Allow Hyperlinks
+allow_hyperlinks yes
+
+#: Shell Integration
+shell_integration enabled
+
+#: Allow Cloning
+# allow_cloning ask
+
+#: Clone Source Strategies
+# clone_source_strategies venv,conda,env_var,path
+
+#: Notify On Cmd Finish
+# notify_on_cmd_finish never
+
+#: Term
+# term xterm-kitty
+
+#: Terminfo Type
+# terminfo_type path
+
+#: Forward Stdio
+# forward_stdio no
+
+#: Menu Map
+# menu_map
+
+#: }}}
+#: OS specific tweaks
+#: OS specific tweaks {{{
+#: Wayland Titlebar Color
+# wayland_titlebar_color system
+
+#: Macos Titlebar Color
+# macos_titlebar_color system
+
+#: Macos Option As Alt
+# macos_option_as_alt no
+
+#: Macos Hide From Tasks
+# macos_hide_from_tasks no
+
+#: Macos Quit When Last Window Closed
+# macos_quit_when_last_window_closed no
+
+#: Macos Window Resizable
+# macos_window_resizable yes
+
+#: Macos Thicken Font
+# macos_thicken_font 0
+
+#: Macos Traditional Fullscreen
+# macos_traditional_fullscreen no
+
+#: Macos Fullscreen Ignore Safe Area Insets
+# macos_fullscreen_ignore_safe_area_insets no
+
+#: Macos Show Window Title In
+# macos_show_window_title_in all
+
+#: Macos Menubar Title Max Length
+# macos_menubar_title_max_length 0
+
+#: Macos Custom Beam Cursor
+# macos_custom_beam_cursor no
+
+#: Macos Colorspace
+# macos_colorspace srgb
+
+#: Linux Display Server
+# linux_display_server auto
+
+#: Wayland Enable Ime
+# wayland_enable_ime yes
+
+#: }}}
+#: Keyboard shortcuts
+#: Keyboard shortcuts {{{
+#: Kitty Mod
+# kitty_mod ctrl+shift
+
+#: Clear All Shortcuts
+# clear_all_shortcuts no
+
+#: Map Timeout
+# map_timeout 0.0
+
+#: Action Alias
+# action_alias
+
+#: Kitten Alias
+# kitten_alias
+
+#: Clipboard
+#: Clipboard {{{
+#: Copy To Clipboard
+# map --allow-fallback=shifted,ascii kitty_mod+c copy_to_clipboard
+
+#: Copy Or Noop
+# map --allow-fallback=shifted,ascii cmd+c copy_or_noop
+
+#: Paste From Clipboard
+# map --allow-fallback=shifted,ascii kitty_mod+v paste_from_clipboard
+
+#: Paste From Clipboard
+# map --allow-fallback=shifted,ascii cmd+v paste_from_clipboard
+
+#: Paste From Selection
+# map --allow-fallback=shifted,ascii kitty_mod+s paste_from_selection
+
+#: Paste From Selection
+# map shift+insert                   paste_from_selection
+
+#: Pass Selection To Program
+# map --allow-fallback=shifted,ascii kitty_mod+o pass_selection_to_program
+
+#: }}}
+#: Scrolling
+#: Scrolling {{{
+#: Scroll Line Up
+# map kitty_mod+up                   scroll_line_up smooth
+
+#: Scroll Line Up
+# map --allow-fallback=shifted,ascii kitty_mod+k scroll_line_up smooth
+
+#: Scroll Line Up
+# map opt+cmd+page_up                scroll_line_up smooth
+
+#: Scroll Line Up
+# map cmd+up                         scroll_line_up smooth
+
+#: Scroll Line Down
+# map kitty_mod+down                 scroll_line_down smooth
+
+#: Scroll Line Down
+# map --allow-fallback=shifted,ascii kitty_mod+j scroll_line_down smooth
+
+#: Scroll Line Down
+# map opt+cmd+page_down              scroll_line_down smooth
+
+#: Scroll Line Down
+# map cmd+down                       scroll_line_down smooth
+
+#: Scroll Page Up
+# map kitty_mod+page_up scroll_page_up
+
+#: Scroll Page Up
+# map cmd+page_up       scroll_page_up
+
+#: Scroll Page Down
+# map kitty_mod+page_down scroll_page_down
+
+#: Scroll Page Down
+# map cmd+page_down       scroll_page_down
+
+#: Scroll Home
+# map kitty_mod+home scroll_home
+
+#: Scroll Home
+# map cmd+home       scroll_home
+
+#: Scroll End
+# map kitty_mod+end scroll_end
+
+#: Scroll End
+# map cmd+end       scroll_end
+
+#: Scroll To Prompt
+# map --allow-fallback=shifted,ascii kitty_mod+z scroll_to_prompt -1
+
+#: Scroll To Prompt
+# map --allow-fallback=shifted,ascii kitty_mod+x scroll_to_prompt 1
+
+#: Show Scrollback
+# map --allow-fallback=shifted,ascii kitty_mod+h show_scrollback
+
+#: Show Last Command Output
+# map --allow-fallback=shifted,ascii kitty_mod+g show_last_command_output
+
+#: Search Scrollback
+# map kitty_mod+/                    search_scrollback
+
+#: Search Scrollback
+# map --allow-fallback=shifted,ascii cmd+f search_scrollback
+
+#: }}}
+#: Window management
+#: Window management {{{
+#: New Window
+# map kitty_mod+enter new_window
+
+#: New Window
+# map cmd+enter       new_window
+
+#: New Os Window
+# map --allow-fallback=shifted,ascii kitty_mod+n new_os_window
+
+#: New Os Window
+# map --allow-fallback=shifted,ascii cmd+n new_os_window
+
+#: Close Window
+# map --allow-fallback=shifted,ascii kitty_mod+w close_window
+
+#: Close Window
+# map --allow-fallback=shifted,ascii shift+cmd+d close_window
+
+#: Next Window
+# map kitty_mod+] next_window
+
+#: Previous Window
+# map kitty_mod+[ previous_window
+
+#: Move Window Forward
+# map --allow-fallback=shifted,ascii kitty_mod+f move_window_forward
+
+#: Move Window Backward
+# map --allow-fallback=shifted,ascii kitty_mod+b move_window_backward
+
+#: Move Window To Top
+# map kitty_mod+` move_window_to_top
+
+#: Start Resizing Window
+# map --allow-fallback=shifted,ascii kitty_mod+r start_resizing_window
+
+#: Start Resizing Window
+# map --allow-fallback=shifted,ascii cmd+r start_resizing_window
+
+#: First Window
+# map kitty_mod+1 first_window
+
+#: First Window
+# map cmd+1       first_window
+
+#: Second Window
+# map kitty_mod+2 second_window
+
+#: Second Window
+# map cmd+2       second_window
+
+#: Third Window
+# map kitty_mod+3 third_window
+
+#: Third Window
+# map cmd+3       third_window
+
+#: Fourth Window
+# map kitty_mod+4 fourth_window
+
+#: Fourth Window
+# map cmd+4       fourth_window
+
+#: Fifth Window
+# map kitty_mod+5 fifth_window
+
+#: Fifth Window
+# map cmd+5       fifth_window
+
+#: Sixth Window
+# map kitty_mod+6 sixth_window
+
+#: Sixth Window
+# map cmd+6       sixth_window
+
+#: Seventh Window
+# map kitty_mod+7 seventh_window
+
+#: Seventh Window
+# map cmd+7       seventh_window
+
+#: Eighth Window
+# map kitty_mod+8 eighth_window
+
+#: Eighth Window
+# map cmd+8       eighth_window
+
+#: Ninth Window
+# map kitty_mod+9 ninth_window
+
+#: Ninth Window
+# map cmd+9       ninth_window
+
+#: Tenth Window
+# map kitty_mod+0 tenth_window
+
+#: Focus Visible Window
+# map kitty_mod+f7 focus_visible_window
+
+#: Swap With Window
+# map kitty_mod+f8 swap_with_window
+
+#: }}}
+#: Tab management
+#: Tab management {{{
+#: Next Tab
+# map kitty_mod+right next_tab
+
+#: Next Tab
+# map shift+cmd+]     next_tab
+
+#: Next Tab
+# map ctrl+tab        next_tab
+
+#: Previous Tab
+# map kitty_mod+left previous_tab
+
+#: Previous Tab
+# map shift+cmd+[    previous_tab
+
+#: Previous Tab
+# map ctrl+shift+tab previous_tab
+
+#: New Tab
+# map --allow-fallback=shifted,ascii kitty_mod+t new_tab
+
+#: New Tab
+# map --allow-fallback=shifted,ascii cmd+t new_tab
+
+#: Close Tab
+# map --allow-fallback=shifted,ascii kitty_mod+q close_tab
+
+#: Close Tab
+# map --allow-fallback=shifted,ascii cmd+w close_tab
+
+#: Close Os Window
+# map --allow-fallback=shifted,ascii shift+cmd+w close_os_window
+
+#: Move Tab Forward
+# map kitty_mod+. move_tab_forward
+
+#: Move Tab Backward
+# map kitty_mod+, move_tab_backward
+
+#: Set Tab Title
+# map --allow-fallback=shifted,ascii kitty_mod+alt+t set_tab_title
+
+#: Set Tab Title
+# map --allow-fallback=shifted,ascii shift+cmd+i set_tab_title
+
+#: }}}
+#: Layout management
+#: Layout management {{{
+#: Next Layout
+# map --allow-fallback=shifted,ascii kitty_mod+l next_layout
+
+#: }}}
+#: Font sizes
+#: Font sizes {{{
+#: Change Font Size
+# map kitty_mod+equal  change_font_size all +2.0
+
+#: Change Font Size
+# map kitty_mod+plus   change_font_size all +2.0
+
+#: Change Font Size
+# map kitty_mod+kp_add change_font_size all +2.0
+
+#: Change Font Size
+# map cmd+plus         change_font_size all +2.0
+
+#: Change Font Size
+# map cmd+equal        change_font_size all +2.0
+
+#: Change Font Size
+# map shift+cmd+equal  change_font_size all +2.0
+
+#: Change Font Size
+# map kitty_mod+minus       change_font_size all -2.0
+
+#: Change Font Size
+# map kitty_mod+kp_subtract change_font_size all -2.0
+
+#: Change Font Size
+# map cmd+minus             change_font_size all -2.0
+
+#: Change Font Size
+# map shift+cmd+minus       change_font_size all -2.0
+
+#: Change Font Size
+# map kitty_mod+backspace change_font_size all 0
+
+#: Change Font Size
+# map cmd+0               change_font_size all 0
+
+#: }}}
+#: Select and act on visible text
+#: Select and act on visible text {{{
+#: Open Url With Hints
+# map --allow-fallback=shifted,ascii kitty_mod+e open_url_with_hints
+
+#: Kitten
+# map --allow-fallback=shifted,ascii kitty_mod+p>f kitten hints --type path --program -
+
+#: Kitten
+# map --allow-fallback=shifted,ascii kitty_mod+p>shift+f kitten hints --type path
+
+#: Kitten
+# map --allow-fallback=shifted,ascii kitty_mod+p>c kitten choose-files
+
+#: Kitten
+# map --allow-fallback=shifted,ascii kitty_mod+p>d kitten choose-files --mode=dir
+
+#: Kitten
+# map --allow-fallback=shifted,ascii kitty_mod+p>l kitten hints --type line --program -
+
+#: Kitten
+# map --allow-fallback=shifted,ascii kitty_mod+p>w kitten hints --type word --program -
+
+#: Kitten
+# map --allow-fallback=shifted,ascii kitty_mod+p>h kitten hints --type hash --program -
+
+#: Kitten
+# map --allow-fallback=shifted,ascii kitty_mod+p>n kitten hints --type linenum
+
+#: Kitten
+# map --allow-fallback=shifted,ascii kitty_mod+p>y kitten hints --type hyperlink
+
+#: }}}
+#: Miscellaneous
+#: Miscellaneous {{{
+#: Show Kitty Doc
+# map kitty_mod+f1 show_kitty_doc overview
+
+#: Command Palette
+# map kitty_mod+f3 command_palette
+
+#: Toggle Fullscreen
+# map kitty_mod+f11                  toggle_fullscreen
+
+#: Toggle Fullscreen
+# map --allow-fallback=shifted,ascii ctrl+cmd+f toggle_fullscreen
+
+#: Toggle Maximized
+# map kitty_mod+f10 toggle_maximized
+
+#: Toggle Macos Secure Keyboard Entry
+# map --allow-fallback=shifted,ascii opt+cmd+s toggle_macos_secure_keyboard_entry
+
+#: Macos Cycle Through Os Windows
+# map cmd+` macos_cycle_through_os_windows
+
+#: Macos Cycle Through Os Windows Backwards
+# map cmd+shift+` macos_cycle_through_os_windows_backwards
+
+#: Kitten
+# map --allow-fallback=shifted,ascii kitty_mod+u kitten unicode_input
+
+#: Kitten
+# map ctrl+cmd+space                 kitten unicode_input
+
+#: Edit Config File
+# map kitty_mod+f2 edit_config_file
+
+#: Edit Config File
+# map cmd+,        edit_config_file
+
+#: Kitty Shell
+# map kitty_mod+escape kitty_shell window
+
+#: Set Background Opacity
+# map --allow-fallback=shifted,ascii kitty_mod+a>m set_background_opacity +0.1
+
+#: Set Background Opacity
+# map --allow-fallback=shifted,ascii kitty_mod+a>l set_background_opacity 1.1
+
+#: Set Background Opacity
+# map --allow-fallback=shifted,ascii kitty_mod+a>1 set_background_opacity 1
+
+#: Set Background Opacity
+# map --allow-fallback=shifted,ascii kitty_mod+a>d set_background_opacity default
+
+#: Clear Terminal
+# map kitty_mod+delete clear_terminal reset active
+
+#: Clear Terminal
+# map opt+cmd+r        clear_terminal reset active
+
+#: Clear Terminal
+# map cmd+k clear_terminal to_cursor active
+
+#: Clear Terminal
+# map option+cmd+k clear_terminal scrollback active
+
+#: Clear Terminal
+# map cmd+l clear_terminal last_command active
+
+#: Clear Terminal
+# map cmd+ctrl+l clear_terminal to_cursor_scroll active
+
+#: Load Config File
+# map kitty_mod+f5 load_config_file
+
+#: Load Config File
+# map ctrl+cmd+,   load_config_file
+
+#: Debug Config
+# map kitty_mod+f6 debug_config
+
+#: Debug Config
+# map opt+cmd+,    debug_config
+
+#: Open Url
+# map shift+cmd+/ open_url https://sw.kovidgoyal.net/kitty/
+
+#: Hide Macos App
+# map cmd+h hide_macos_app
+
+#: Hide Macos Other Apps
+# map opt+cmd+h hide_macos_other_apps
+
+#: Minimize Macos Window
+# map cmd+m minimize_macos_window
+
+#: Quit
+# map cmd+q quit
+
+#: }}}
+#: }}}
